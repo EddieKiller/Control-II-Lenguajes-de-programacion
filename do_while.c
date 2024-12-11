@@ -3,11 +3,11 @@ int main()
 {
     int x = 0;
 
-hacer_bucle:
+do_while:
     printf("x = %d\n", x);
     x++;
     if (x < 5)
-        goto hacer_bucle;
+        goto do_while;
 
     return 0;
 }
